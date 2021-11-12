@@ -29,7 +29,7 @@ check_pkgs(){
     if [ ${res} -eq 0 ]; then
         echo "nmap has been installed..."
     else
-        echo "namp haven't been install, installing..."
+        echo "namp haven't been installed, installing..."
         if [ ${1} = "apt" ]; then
             sudo apt install nmap
         elif [ ${1} = "brew" ]; then
@@ -49,7 +49,7 @@ check_pkgs(){
     if [ ${res} -eq 0 ]; then
         echo "dialog has been installed..."
     else
-        echo "dialog haven't been install, installing..."
+        echo "dialog haven't been installed, installing..."
         if [ ${1} = "apt" ]; then
             sudo apt install dialog
         elif [ ${1} = "brew" ]; then

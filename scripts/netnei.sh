@@ -16,7 +16,7 @@ interrupt_handle (){
     fi
 }
 
-# check nmap
+# check pkgs
 check_pkgs(){
     # nmap
     if [ ${1} = "apt" ]; then

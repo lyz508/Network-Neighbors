@@ -1,10 +1,10 @@
 # Network Neighbors
-- A shell script help to find hostname and IP address of Network Neighbors
+- A shell script helping to find out hostname and IP address of Network Neighbors
 - Support two package manager
   - homebrew
   - apt
 - Use `system DNS` to convert scanned IP address to corresponding hostname
-  - it will be `unknown` if IP doesn't have corresponding target.
+  - it will be `unknown` if IP doesn't have corresponding hostname.
 
 ## Features
 - Automatically packages check
